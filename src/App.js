@@ -7,7 +7,7 @@ import VisibilityFilterButtons from './components/VisibilityFilterButtons';
 const todos = [
   {
     text: 'Eat lunch',
-    completed: true,
+    completed: false,
     id: 1
   },
   {
