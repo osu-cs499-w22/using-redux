@@ -1,4 +1,11 @@
 import { createStore } from 'redux';
 
-const store = createStore(() => []);
+import rootReducer from './reducer';
+
+const store = createStore(rootReducer);
+
+store.subscribe(() => {
+  console.log(store.getState())
+});
+
 export default store;
